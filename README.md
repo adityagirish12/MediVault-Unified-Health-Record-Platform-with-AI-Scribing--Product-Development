@@ -4,7 +4,7 @@ MediVault is a **digital health platform** designed to centralize a patient’s 
 
 On top of that, MediVault uses **AI-powered scribing** to convert messy, unstructured clinical conversations into clean, structured notes that plug directly into the patient record.
 
-> TL;DR: One record. One timeline. Less admin, more care.
+> One record. One timeline. Less admin, more care.
 
 ---
 
@@ -99,24 +99,3 @@ MediVault is designed around a modular architecture:
 > The exact tech stack may evolve, but the architecture is designed to support auditability, privacy, and extensibility from day one.
 
 ---
-
-## 📂 Repository Structure (Suggested)
-
-```bash
-medivault/
-├─ docs/
-│  ├─ MRD.md
-│  ├─ PRD.md
-│  ├─ user-personas.md
-│  ├─ user-flows.md
-│  └─ api-design.md
-├─ designs/
-│  ├─ wireframes/        # Balsamiq exports
-│  └─ figma/             # Figma links/screenshots
-├─ backend/
-│  └─ ...                # API, models, services (future)
-├─ frontend/
-│  └─ ...                # Web/mobile app (future)
-├─ scripts/
-│  └─ ...                # Data, utilities, prototypes
-└─ README.md
